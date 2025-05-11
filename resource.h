@@ -31,7 +31,7 @@
 #define IDC_BUTTON_ALARMSET_OK          1017
 #define IDC_STATIC_PRESENTTIME          1018
 #define IDC_STATIC_DATA                 1019
-#define IDC_STATIC_                     1020
+#define IDC_STATIC						1020
 #define IDC_STATIC_HOUR                 1020
 #define IDC_STATIC_MINUTE               1021
 #define IDC_STATIC_NAME                 1022
