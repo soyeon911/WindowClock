@@ -36,6 +36,14 @@
 #define IDC_STATIC_MINUTE               1021
 #define IDC_STATIC_NAME                 1022
 
+// 메뉴바 리소스 id (충돌 방지용으로 30000번대 사용)
+#define IDR_MAIN_MENU      30000
+#define ID_FILE_EXIT       30001
+#define ID_MENU_CLOCK      30002
+#define ID_MENU_TIMER      30003
+#define ID_MENU_ALARM      30004
+#define ID_MENU_SETTINGS   30005
+
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
