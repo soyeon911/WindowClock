@@ -41,4 +41,11 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg HBRUSH OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor);
+
+	// 메뉴 핸들러 함수들 선언
+	afx_msg void OnMenuClock();
+	afx_msg void OnMenuTimer();
+	afx_msg void OnMenuAlarm();
+	afx_msg void OnMenuSettings();
+	afx_msg void OnMenuExit();
 };

@@ -7,6 +7,8 @@
 #include "Clock.h"
 #include "ClockDlg.h"
 #include "afxdialogex.h"
+#include "CAlarmDlg.h"
+#include "CTimerDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -66,8 +68,14 @@ BEGIN_MESSAGE_MAP(CClockDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_WM_CTLCOLOR()
-END_MESSAGE_MAP()
 
+	// 메뉴바 관련 메시지 맵
+	ON_COMMAND(ID_MENU_CLOCK, &CClockDlg::OnMenuClock)
+	ON_COMMAND(ID_MENU_TIMER, &CClockDlg::OnMenuTimer)
+	ON_COMMAND(ID_MENU_ALARM, &CClockDlg::OnMenuAlarm)
+	ON_COMMAND(ID_MENU_SETTINGS, &CClockDlg::OnMenuSettings)
+	ON_COMMAND(ID_FILE_EXIT, &CClockDlg::OnMenuExit)
+END_MESSAGE_MAP()
 
 // CClockDlg 메시지 처리기
 
@@ -99,6 +107,10 @@ BOOL CClockDlg::OnInitDialog()
 	//  프레임워크가 이 작업을 자동으로 수행합니다.
 	SetIcon(m_hIcon, TRUE);			// 큰 아이콘을 설정합니다.
 	SetIcon(m_hIcon, FALSE);		// 작은 아이콘을 설정합니다.
+
+	CMenu menu;
+	menu.LoadMenu(IDR_MAIN_MENU);  // 메뉴 리소스 ID
+	SetMenu(&menu);                // 이 다이얼로그에 메뉴 붙이기
 
 	// TODO: 여기에 추가 초기화 작업을 추가합니다.
 	m_brBackground.CreateSolidBrush(RGB(255, 255, 255));
@@ -186,4 +198,33 @@ HBRUSH CClockDlg::OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor)
 
 	// TODO:  기본값이 적당하지 않으면 다른 브러시를 반환합니다.
 	return hbr;
+}
+
+void CClockDlg::OnMenuClock()
+{
+	// 시계 다이얼로그는 자신이니까 아무것도 안 해도 됨
+	AfxMessageBox(_T("현재 시계 화면입니다."));
+}
+
+void CClockDlg::OnMenuTimer()
+{
+	CTimerDlg dlg;
+	dlg.DoModal();  // 타이머 창 띄우기
+}
+
+void CClockDlg::OnMenuAlarm()
+{
+	CAlarmDlg dlg;
+	dlg.DoModal();  // 알람 창 띄우기
+}
+
+void CClockDlg::OnMenuSettings()
+{
+	// 아직 Settings 다이얼로그 없으면 임시 메세지
+	AfxMessageBox(_T("설정 창 준비 중입니다."));
+}
+
+void CClockDlg::OnMenuExit()
+{
+	OnOK();  // 프로그램 종료
 }

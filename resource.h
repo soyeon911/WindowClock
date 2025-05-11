@@ -19,22 +19,22 @@
 #define IDC_BUTTON_BACK                 1006
 #define IDC_BUTTON_DARK                 1007
 #define IDC_BUTTON_POMODORO             1008
-#define IDC_STATIC_TIME                 1008
-#define IDC_STATIC_AMPM                 1009
-#define IDC_STATIC_DAY                  1010
+#define IDC_STATIC_TIME                 1009
+#define IDC_STATIC_AMPM                 1010
+#define IDC_STATIC_DAY                  1011
 #define IDC_LIST_ALARMLIST              1012
 #define IDC_BUTTON_NEWALARM             1013
 #define IDC_EDIT1                       1014
-#define IDC_BUTTON_DELETEALARM          1014
-#define IDC_EDIT2                       1015
-#define IDC_EDIT3                       1016
-#define IDC_BUTTON_ALARMSET_OK          1017
-#define IDC_STATIC_PRESENTTIME          1018
-#define IDC_STATIC_DATA                 1019
-#define IDC_STATIC						1020
-#define IDC_STATIC_HOUR                 1020
-#define IDC_STATIC_MINUTE               1021
-#define IDC_STATIC_NAME                 1022
+#define IDC_BUTTON_DELETEALARM          1015
+#define IDC_EDIT2                       1016
+#define IDC_EDIT3                       1017
+#define IDC_BUTTON_ALARMSET_OK          1018
+#define IDC_STATIC_PRESENTTIME          1019
+#define IDC_STATIC_DATA                 1020
+#define IDC_STATIC						1021
+#define IDC_STATIC_HOUR                 1022
+#define IDC_STATIC_MINUTE               1023
+#define IDC_STATIC_NAME                 1024
 
 // 메뉴바 리소스 id (충돌 방지용으로 30000번대 사용)
 #define IDR_MAIN_MENU      30000
