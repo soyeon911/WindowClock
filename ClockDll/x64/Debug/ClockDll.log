@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  ClockDll.cpp
+C:\Users\User\Downloads\통계 병합 전 최종\ClockDll\ClockDll.cpp(33,30): error C2491: 'GetCurrentTimeFormatted': dllimport 함수을(를) 정의할 수 없습니다.
+  (소스 파일 '/ClockDll.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Downloads\통계 병합 전 최종\ClockDll\ClockDll.cpp(52,41): warning C4477: 'swprintf_s' : 서식 문자열 '%s'에 'wchar_t *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'CString'입니다.
+  (소스 파일 '/ClockDll.cpp'을(를) 컴파일하는 중)
+  

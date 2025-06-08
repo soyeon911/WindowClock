@@ -1,0 +1,5 @@
+﻿     C:\Users\sypar\OneDrive\바탕 화면\25-1학기\윈도우프로그래밍\알람 추가\x64\Debug\PomodoroDll.lib 라이브러리 및 C:\Users\sypar\OneDrive\바탕 화면\25-1학기\윈도우프로그래밍\알람 추가\x64\Debug\PomodoroDll.exp 개체를 생성하고 있습니다.
+PomodoroDialog.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl CPomodoroDialog::DoDataExchange(class CDataExchange *)" (?DoDataExchange@CPomodoroDialog@@MEAAXPEAVCDataExchange@@@Z)
+PomodoroDialog.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual int __cdecl CPomodoroDialog::OnInitDialog(void)" (?OnInitDialog@CPomodoroDialog@@MEAAHXZ)
+PomodoroDialog.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual struct AFX_MSGMAP const * __cdecl CPomodoroDialog::GetMessageMap(void)const " (?GetMessageMap@CPomodoroDialog@@MEBAPEBUAFX_MSGMAP@@XZ)
+C:\Users\sypar\OneDrive\바탕 화면\25-1학기\윈도우프로그래밍\알람 추가\x64\Debug\PomodoroDll.dll : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.

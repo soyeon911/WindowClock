@@ -1,0 +1,125 @@
+﻿//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++에서 생성한 포함 파일입니다.
+// TeamProject.rc에서 사용되고 있습니다.
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_TEAMPROJECT_DIALOG          102
+#define IDR_MAINFRAME                   128
+#define IDR_MENU1                       130
+#define IDR_MENU2                       131
+#define IDR_ACCELERATOR1                132
+#define IDB_BITMAP_PLAY                 133
+#define IDB_BITMAP_PAUSE                134
+#define IDB_BITMAP1                     135
+#define IDB_BITMAP_RESET                135
+#define IDD_CLOCK_DIALOG                136
+#define IDD_DIALOG2                     137
+#define IDD_ALARM_DIALOG                137
+#define IDD_ALARMAPP_DIALOG             137
+#define IDD_RANK_DIALOG                 140
+#define IDD_DIALOG_ALLOW_APP            142
+#define IDR_MENU3                       146
+#define IDD_DIALOG1                     147
+#define IDD_STATISTICS_DIALOG           147
+#define IDR_ACCELERATOR2                149
+#define IDI_ICON1                       157
+#define IDI_CLOCK                       158
+#define IDI_ICON2                       158
+#define IDC_LOAD_CSV_BUTTON             1001
+#define IDC_BUTTON_SETGOAL              1002
+#define IDC_EDIT_GOAL                   1003
+#define IDC_BUTTON_STOP                 1007
+#define IDC_COMBO_FOCUS                 1008
+#define IDC_COMBO_REST                  1009
+#define IDC_GROUP_TIMERB                1010
+#define IDC_GROUP_TIMERA                1011
+#define IDC_GROUP_TIMERC                1012
+#define IDC_STATIC_SESSIONS             1013
+#define IDC_STATIC_DAYGRAPH             1013
+#define IDC_STATIC_PIECHART             1014
+#define IDC_STATIC_DAYONGOING           1015
+#define IDC_STATIC_GOAL_POMODORO        1016
+#define IDC_STATIC_FOCUS                1017
+#define IDC_STATIC_REST                 1018
+#define IDC_STATIC_RESTTIME             1019
+#define IDC_BUTTON_RESET                1020
+#define IDC_STATIC_CURR_RANK            1020
+#define IDC_BUTTON_START                1021
+#define IDC_STATIC_NEXT_RANK            1021
+#define IDC_STATIC_STATE                1022
+#define IDC_LIST1                       1022
+#define IDC_LIST_ALARMS                 1022
+#define IDC_STATIC_LONGREST             1023
+#define IDC_STATIC_RANK_CRITERIA        1023
+#define IDC_PIC_CURR_RANK               1024
+#define IDC_PIC_CURR_RANK2              1025
+#define IDC_PIC_NEXT_RANK               1025
+#define IDC_EDIT1                       1025
+#define IDC_EDIT_HOUR                   1025
+#define IDC_EDIT2                       1026
+#define IDC_EDIT_MIN                    1026
+#define IDC_COMBO1                      1027
+#define IDC_COMBO_AMPM                  1027
+#define IDC_CHECK1                      1028
+#define IDC_CHECK_SUN                   1028
+#define IDC_CHECK2                      1029
+#define IDC_CHECK_THU                   1029
+#define IDC_CHECK3                      1030
+#define IDC_CHECK_MON                   1030
+#define IDC_CHECK4                      1031
+#define IDC_CHECK_FRI                   1031
+#define IDC_CHECK5                      1032
+#define IDC_CHECK_TUE                   1032
+#define IDC_CHECK6                      1033
+#define IDC_CHECK_SAT                   1033
+#define IDC_CHECK7                      1034
+#define IDC_CHECK_WED                   1034
+#define IDC_BUTTON1                     1035
+#define IDC_BUTTON_TOGGLE_ALARM         1035
+#define IDC_EDIT_URL                    1036
+#define IDC_BUTTON_INPUT                1037
+#define IDC_BUTTON2                     1038
+#define IDC_LIST_URL                    1038
+#define IDC_BUTTON_DELETE_ALARM         1038
+#define IDC_BUTTON3                     1039
+#define IDC_BUTTON_SETALARM             1039
+#define IDC_BUTTON_DELETE               1040
+#define IDC_BUTTON_OK                   1041
+#define IDC_BUTTON_ALLOW                1042
+#define IDC_BUTTON_BACK                 1043
+#define IDC_STATIC_NOW_STATE            1044
+#define IDC_BUTTON_RESUME               1045
+#define IDC_STATIC_TIMELEFT             1046
+#define IDC_BUTTON_TIMELEFT             1047
+#define IDC_STATIC_ALARMTIME            1048
+#define IDC_STATIC_TIME                 1049
+#define IDC_STATIC_AMPM                 1050
+#define IDC_STATIC_DATE                 1051
+#define IDC_CHILD_PLACEHOLDER           1053
+#define IDC_EDIT3                       1054
+#define IDC_EDIT_ALARM_NAME             1054
+#define ID_MENU_FILE_SAVE               32771
+#define ID_MENU_CLOCK_OPEN              32772
+#define ID_32772                        32772
+#define ID_MENU_ALARM_OPEN              32773
+#define ID_32773                        32773
+#define ID_MENU_POMODORO_OPEN           32774
+#define ID_32774                        32774
+#define ID_MENU_TOGGLE_DARKMODE         32775
+#define ID_MENU_RANK_OPEN               32776
+#define ID_MENU_ALLOW_APP_OPEN          32777
+#define ID_MENU_ALLOW_APP               32777
+#define ID_MENU_STATISTICS              32778
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        159
+#define _APS_NEXT_COMMAND_VALUE         32788
+#define _APS_NEXT_CONTROL_VALUE         1055
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
